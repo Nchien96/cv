@@ -1,0 +1,303 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #ffffff;
+}
+
+section > .container {
+  width: 1170px;
+  box-sizing: border-box;
+  margin: auto;
+  line-height: 23px;
+
+  padding: 30px 0px;
+}
+
+.img-banner {
+  width: 100%;
+  text-align: center;
+}
+#banner {
+  width: 1170px;
+  position: relative;
+  margin: auto;
+}
+
+.img-avatar {
+  width: 30%;
+  justify-self: center;
+  position: relative;
+  z-index: 1;
+  bottom: 60px;
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+#img-avatar-all {
+  height: 50px;
+}
+
+.class-center {
+  color: #f7f7f7;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#nav-bar {
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  background-color: white;
+  position: relative;
+}
+
+#nav-bar-alls {
+  /* border-bottom: 1px solid #9292923f; */
+  font-size: 20px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+  gap: 40px;
+  row-gap: 40px;
+  box-sizing: border-box;
+}
+
+#nav-bar-all {
+  background: #f7f7f7;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  row-gap: 40px;
+}
+
+#about {
+  margin: auto;
+}
+
+h1 {
+  font-size: 30px;
+  align-self: center;
+}
+
+.container i {
+  color: rgb(0, 162, 255);
+}
+
+.container a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar-info {
+  display: inline-block;
+  padding: 0 0px;
+  line-height: 35px;
+}
+
+.nav-bar-all {
+  display: inline-block;
+  padding: 0 0px;
+  align-self: center;
+}
+
+#target {
+  flex: 1;
+  text-align: start;
+}
+
+#personal-info {
+  flex: 1;
+  text-align: start;
+}
+
+.mt-40 {
+  list-style-type: none;
+  padding: 0 0;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+#job-info-container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.job-info-ct {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.job-info-all {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 50px 250px;
+
+  row-gap: 40px;
+  justify-items: flex-start;
+}
+
+.job-info-all i {
+  font-size: 40px;
+  align-self: center;
+}
+
+.job-info-list {
+  grid-column: 1/-1;
+}
+
+.name-so-thich {
+  margin-top: 10px;
+}
+
+#vien-icon {
+  border: 1px solid rgb(0, 162, 255);
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.so-thich {
+  display: flex;
+  grid-column: 1/-1;
+  width: 340px;
+  justify-content: space-between;
+}
+
+#thang-diem {
+  background-color: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+#thang-diem-all {
+  /* margin-left: -20px; */
+  margin-top: 5px;
+}
+
+.ngon-ngu-list {
+  display: grid;
+  grid-template-rows: 51px 51px;
+
+  gap: 20px;
+}
+
+.section-title-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-title-info img {
+  width: 92%;
+}
+
+.section-title-info-all {
+  padding: 20px;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#section-title-info-1 {
+  border-right: 1px solid #ebe3d1;
+  border-bottom: 1px solid #ebe3d1;
+}
+
+#section-title-info-2 {
+  border-bottom: 1px solid #ebe3d1;
+}
+
+.img-du-an {
+  width: 100%;
+}
+
+#project-name {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  /* margin-left: 15px; */
+  /* background-color: #199cdb; */
+  padding: 10px 15px;
+}
+
+.project-info {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* margin: 0 15px; */
+  padding: 10px 15px;
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  /* background-color: rgba(255, 166, 0, 0.61); */
+}
+
+.project-year {
+  background-color: #199cdb;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.project-info i {
+  margin-right: -15px;
+  color: rgba(0, 0, 0, 0.712);
+}
+
+table {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  flex: 1;
+  /* background-color: rgba(141, 103, 0, 0.671); */
+}
+
+td {
+  padding: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.footer-list li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.footer-list i {
+  color: #199cdb;
+}
+
+.footer-list {
+  font-size: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+#footer-container {
+  padding: 40px 0;
+}
+
+.du-an-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* tbody {
+  display: flex;
+  flex-direction: column;
+} */
